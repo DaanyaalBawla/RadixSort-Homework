@@ -1,2 +1,3 @@
 # RadixSort-Homework
-A homework project where I used queues and had to create a radixsort function 
+A homework project where I used queues and had to create a radixsort function.
+My radixsort function took a list, in this case ["dc", "ba", "e", "c", "b"], and dequeued each string into alphabetically assigned queues going from " " to "e", first it counts how many letters are in each string if a string has only 1 letter it gets dequeued from the main queue and queued in to the " " queue, after sorting first by the second letter or " " in each string it then repeats the process with the first letter or " " and returns requeues the strings into the main queue as ['b', 'ba', 'c', 'dc', 'e'] which has be radix sorted 
